@@ -1,7 +1,7 @@
 import pyautogui as pya
 from PIL import ImageGrab
 import pytesseract, cv2, numpy, time, keyboard
-pytesseract.pytesseract.tesseract_cmd = r'D:\\Users\\jt\\AppData\\Local\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'tesseract.exe path here'
 def Tick():
      obj=False;obd=False
      image=ImageGrab.grab(bbox=(705,366,868,429))
